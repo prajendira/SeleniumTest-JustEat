@@ -37,6 +37,8 @@ class SearchPostCode(unittest.TestCase):
     def test_title(self):
         self.assertEqual("Restaurants and takeaways in Area51, AR51 | Just Eat", self.driver.title)
 
+    def test_altText(self):
+        self.assertTrue()
     @classmethod
     def tearDownClass(cls):
         cls.driver.close()
