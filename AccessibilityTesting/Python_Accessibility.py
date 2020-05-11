@@ -1,8 +1,5 @@
 from selenium import webdriver
 from axe_selenium_python import Axe
-# unable to install axe-selenium packages due to the pip version
-
-import time
 import unittest
 import json
 
